@@ -1,0 +1,4 @@
+Date: 15-10-2025
+Work Done:
+Continued the data collection process for the TransferIQ project.
+Worked on collecting player performance data from StatsBomb Open Data.
