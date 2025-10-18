@@ -1,0 +1,20 @@
+Date: 15-10-2025
+Work Done:
+Started my Infosys internship under the project “AI TransferIQ – Dynamic Player Transfer Value Prediction using AI and Multi-Source Data.”
+Reviewed the problem statement document and understood the major data sources involved:
+Player Performance Data: StatsBomb Open Data
+Market Value Data: Transfermarkt Web Scraping
+Social Media Sentiment: Twitter API for player mentions
+Injury Data: Historical injury records
+Set up the project folder structure and created a Python virtual environment for development.
+Installed the required Python libraries (pandas, numpy, matplotlib, seaborn, etc.).
+
+Date: 16-10-2025
+work done:
+Collected external datasets from Kaggle and GitHub for sentiment, injury, and market value data.
+Organized downloaded datasets in the project’s raw data folder for preprocessing.
+
+Date: 17-10-2025
+Work Done:
+Began collecting player performance data from StatsBomb Open Data by cloning the repository.
+Verified dataset structure (competitions, matches, events, players) and explored sample files.
