@@ -1,7 +1,11 @@
 19/10/2025[Daily Progress]
-Collected Player Performance Data from StatsBomb Open Data from kaggle
-Completed Market Value from Kaggle 
+Collected Player Performance Dataset from StatsBomb Open Data from kaggle
+Completed Market Value  dataset from Kaggle 
 
 21/10/2025[Daily Progress]
 Completed Injury Data: Historical player injury records from Kaggle 
 Currently working on Social Media Sentiment Analysis using Twitter API to extract player mention sentiments
+
+22/10/2025
+Completed  Social Media Sentiment: Reddit API for sentiment analysis of player 
+Now i'm working on Data cleaning part 
