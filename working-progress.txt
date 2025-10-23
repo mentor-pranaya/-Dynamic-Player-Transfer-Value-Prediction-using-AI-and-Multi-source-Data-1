@@ -11,10 +11,38 @@ Installed the required Python libraries (pandas, numpy, matplotlib, seaborn, etc
 
 Date: 16-10-2025
 work done:
-Collected external datasets from Kaggle and GitHub for sentiment, injury, and market value data.
-Organized downloaded datasets in the project’s raw data folder for preprocessing.
+- Collected external datasets from Kaggle and GitHub for injury, and market value data.
+- Organized downloaded datasets in the project’s raw data folder for preprocessing.
 
 Date: 17-10-2025
 Work Done:
-Began collecting player performance data from StatsBomb Open Data by cloning the repository.
-Verified dataset structure (competitions, matches, events, players) and explored sample files.
+- Started collecting player performance data from StatsBomb Open Data by cloning the repository.
+- Verified dataset structure (competitions, matches, events, players) and explored sample files.
+
+Date: 18-10-2025
+work done:
+Completed validation of StatsBomb data extraction.
+started working on twitter api for sentiment dataset
+
+Date: 19-10-2025
+work done:
+completed the twitter API data extraction and working on the reddit for Social Media Sentiment
+
+Data: 21-10-2025
+ work done:
+completed the Data collection part and started intial data exploration
+
+Date: 22-10-2025
+ work Done:
+Started Dtata cleaning and preprocessing 
+
+Date: 23-10-2025
+work done:
+- Transfermarkt dataset → removed duplicates, filled missing values, ensured numeric columns
+- Injury dataset → removed duplicates, filled missing values, ensured numeric columns
+- Social media datasets (Reddit + Twitter) → merged, removed duplicates, filled missing values
+- Open-data files (events, matches, etc.) → cleaned in chunks, duplicates removed, missing values filled
+
+
+
+
