@@ -1,2 +1,24 @@
+WEEK 1:
 -Collected data from kaggle for: matches,lineups,injury history,basic details of players.
--Still working on twitter API.
+1)FIFA Players  BASIC INFO Dataset Summary:
+Total Rows: 17954
+Total Columns: 51
+Column Details:
+name, full_name, birth_date, age, height_cm, weight_kgs, positions, nationality, overall_rating, potential, value_euro, wage_euro, preferred_foot, international_reputation(1-5), 
+weak_foot(1-5), skill_moves(1-5), body_type, release_clause_euro, national_team, national_rating, national_team_position, national_jersey_number, crossing, finishing, heading_accuracy,
+short_passing, volleys, dribbling, curve, freekick_accuracy, long_passing, ball_control, acceleration, sprint_speed, agility, reactions, balance, shot_power, jumping, stamina, strength, 
+long_shots, aggression, interceptions, positioning, vision, penalties, composure, marking, standing_tackle, sliding_tackle
+
+2)Dataset contains : Data for FIFA Players Dataset Summary
+Total Rows: 819975
+Total Columns: 13
+Column Details:appearance_id, game_id, player_id, player_club_id, player_current_club_id, date, player_name, competition_id, yellow_cards, red_cards, goals, assists, minutes_played
+3)OTHER DATASETS:  contains info about match lineups,clubs,injury history data,competitions,matches ,player valuation,transfers,
+game events,game lineups.
+
+
+WEEK 2:
+-Performed data cleaning on several datasets , worked on datatypes, missing values, duplicate datas
+-worked on twitter API using X developers.
+
+
