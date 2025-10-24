@@ -43,6 +43,11 @@ work done:
 - Social media datasets (Reddit + Twitter) → merged, removed duplicates, filled missing values
 - Open-data files (events, matches, etc.) → cleaned in chunks, duplicates removed, missing values filled
 
+Date : 24-10-25
+work done:
+- Done the data cleaning and preprocessing
+
+
 
 
 
