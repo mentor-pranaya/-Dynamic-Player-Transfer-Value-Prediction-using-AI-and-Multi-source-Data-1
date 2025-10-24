@@ -4,4 +4,5 @@ Continued the data collection process for the TransferIQ project.
 Worked on collecting player performance data from StatsBomb Open Data.
 
 date:23/10/2025
-completed data collection part.
+completed player perfomance data.
+working in market value data collection part.
