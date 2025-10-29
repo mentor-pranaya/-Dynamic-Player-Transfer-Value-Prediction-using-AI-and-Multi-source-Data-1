@@ -1,0 +1,79 @@
+import pandas as pd
+import numpy as np
+from textblob import TextBlob
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+
+# --- Example DataFrames (as in output) ---
+df_competitions = pd.DataFrame({
+    'comp_id': [1, 2],
+    'name': ['Premier League', 'La Liga'],
+    'country': ['England', 'Spain']
+})
+
+df_transfermarkt = pd.DataFrame([
+    {"name": "Player A", "matches_played": 10, "market_value": 5.5, "contract_start": "2025-01-01", "contract_end": "2026-12-31"},
+    {"name": "Player B", "matches_played": 20, "market_value": 7.0, "contract_start": "2024-07-01", "contract_end": "2025-06-30"}
+])
+
+df_injuries = pd.DataFrame([
+    {"player": "Player A", "injury": "Hamstring", "days_missed": 15},
+    {"player": "Player B", "injury": "Knee", "days_missed": 30}
+])
+
+# --- Cleaning Function ---
+def clean_df(df):
+    df = df.drop_duplicates()
+    df = df.fillna(df.median(numeric_only=True)).fillna('')
+    return df
+
+df_competitions = clean_df(df_competitions)
+df_transfermarkt = clean_df(df_transfermarkt)
+df_injuries = clean_df(df_injuries)
+
+# --- Feature Engineering ---
+if 'matches_played' in df_transfermarkt.columns:
+    df_transfermarkt['performance_trend'] = df_transfermarkt['matches_played'].rolling(window=2, min_periods=1).mean()
+if ('days_missed' in df_injuries.columns) and ('matches_played' in df_transfermarkt.columns):
+    matches = df_transfermarkt.set_index('name')['matches_played']
+    df_injuries['injury_risk'] = df_injuries['player'].map(matches)
+    df_injuries['injury_risk'] = df_injuries['days_missed'] / df_injuries['injury_risk']
+    df_injuries['injury_risk'] = df_injuries['injury_risk'].fillna(0)
+if 'contract_start' in df_transfermarkt.columns and 'contract_end' in df_transfermarkt.columns:
+    df_transfermarkt['contract_start'] = pd.to_datetime(df_transfermarkt['contract_start'], errors='coerce')
+    df_transfermarkt['contract_end'] = pd.to_datetime(df_transfermarkt['contract_end'], errors='coerce')
+    df_transfermarkt['contract_duration'] = (
+        df_transfermarkt['contract_end'] - df_transfermarkt['contract_start']
+    ).dt.days
+
+# --- Scaling and Encoding ---
+scaler = StandardScaler()
+num_cols = df_transfermarkt.select_dtypes(include=[np.number]).columns
+if len(num_cols) > 0:
+    df_transfermarkt[num_cols] = scaler.fit_transform(df_transfermarkt[num_cols])
+cat_cols = df_transfermarkt.select_dtypes(include=['object']).columns
+if len(cat_cols) > 0:
+    encoder = OneHotEncoder(sparse_output=False, drop='first')
+    encoded = encoder.fit_transform(df_transfermarkt[cat_cols])
+    encoded_df = pd.DataFrame(encoded, columns=encoder.get_feature_names_out(cat_cols))
+    df_transfermarkt = df_transfermarkt.drop(cat_cols, axis=1).reset_index(drop=True)
+    df_transfermarkt = pd.concat([df_transfermarkt, encoded_df], axis=1)
+
+# --- Sentiment Analysis ---
+tweets = [
+    {"text": "Player X was amazing today!"},
+    {"text": "Player Y was disappointing."},
+    {"text": "Player Z is injured again."}
+]
+df_tweets = pd.DataFrame(tweets)
+df_tweets['polarity'] = df_tweets['text'].apply(lambda x: TextBlob(x).sentiment.polarity)
+sentiment_report = df_tweets.groupby('polarity').size().reset_index(name='Counts')
+
+# --- Outputs: Head of all processed DataFrames ---
+print("Cleaned Competitions Data (Head):")
+print(df_competitions.head())
+print("\nFeature-Engineered Transfermarkt Data (Head):")
+print(df_transfermarkt.head())
+print("\nFeature-Engineered Injuries Data (Head):")
+print(df_injuries.head())
+print("\nSentiment Analysis Report:")
+print(sentiment_report)
