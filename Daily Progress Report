@@ -20,5 +20,9 @@ game events,game lineups.
 WEEK 2:
 -Performed data cleaning on several datasets , worked on datatypes, missing values, duplicate datas
 -worked on twitter API using X developers.
+- as there are some errors with api keys, needed to be upragraded for further uses ,therefore using twitter data from kaggle.
+
+WEEK 3:
+-currently working on feature engineering and sentiment analysis.
 
 
