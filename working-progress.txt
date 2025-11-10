@@ -34,7 +34,7 @@ completed the Data collection part and started intial data exploration
 
 Date: 22-10-2025
  work Done:
-Started Dtata cleaning and preprocessing 
+Started Data cleaning and preprocessing 
 
 Date: 23-10-2025
 work done:
@@ -47,7 +47,28 @@ Date : 24-10-25
 work done:
 - Done the data cleaning and preprocessing
 
+Date: 29-10-25
+work Done:
+- Started working on combine all datasets
 
+Date: 30-10-2025
+work done:
+- done with the data cleaning of combined dataset
 
+Date: 2-11-2024
+work Done:
+_ started working on feature engineering
+
+Date: 4-11-2025
+work done:
+- done with FE started working on sentimental analysis
+
+Date: 6-11-2025
+Work done:
+- done with SA and started working on advance feature engineering
+
+Date: 7-11-2025
+work done:
+- completed sentimental analysis and advance feature engineering 
 
 
