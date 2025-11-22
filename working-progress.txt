@@ -70,5 +70,18 @@ Work done:
 Date: 7-11-2025
 work done:
 - completed sentimental analysis and advance feature engineering 
+Date: 10-11-2025
+Work done:
+--Started working on lstm model
+
+Date: 21-11-2025
+Work Done: 
+--completed week-5 task
+--Trained LSTM model to predict player Market Value.
+--Preprocessed and scaled the dataset for better performance.
+--Created time-series sequences for model training.
+--Evaluated model using RMSE and MAE.
+--Generated and saved LSTM prediction results and graphs.
+
 
 
