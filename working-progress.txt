@@ -76,12 +76,20 @@ Work done:
 
 Date: 21-11-2025
 Work Done: 
---completed week-5 task
---Trained LSTM model to predict player Market Value.
---Preprocessed and scaled the dataset for better performance.
---Created time-series sequences for model training.
---Evaluated model using RMSE and MAE.
---Generated and saved LSTM prediction results and graphs.
+--Completed Week-5 LSTM model development as per milestone.
+--Implemented and trained:
+   -Univariate LSTM model
+   -Multivariate LSTM model
+   -Encoder–Decoder LSTM model for multi-step forecasting
+--Performed data preprocessing and time-series sequence creation.
+--Evaluated models using RMSE and MAE metrics.
+--Generated and saved prediction results and visualization graphs.
+Week-5 Model Performance Summary
+
+Model Type	                     RMSE	                MAE
+Univariate LSTM	               0.0612	            0.0515
+Multivariate LSTM	             0.0895	            0.0473
+Encoder–Decoder(Multi-step)  	 0.0949	            0.0520
 
 
 
