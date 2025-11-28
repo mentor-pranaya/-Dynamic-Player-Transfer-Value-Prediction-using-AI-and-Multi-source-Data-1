@@ -6,4 +6,6 @@ Working on data cleaning part
 Week-3&4:
 completed feature engineering and sentiment analysis
 week-5:
-working on lstm model development
+completed lstm model development
+week-6:
+completed building XGBoost model and evaluated RMSE,R2
