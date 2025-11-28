@@ -1,3 +1,0 @@
-Week 1:
-I gathered player performance data, market value information, injury records, and public sentiment data.
-I also explored the performance dataset to check for missing values and patterns.
