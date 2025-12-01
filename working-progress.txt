@@ -113,6 +113,24 @@ LSTM-only	                  0.0611        	0.0515
 XGBoost	                    0.0181	        0.0115
 Ensemble (LSTM + XGBoost)	  0.0034	        0.0015
 
+Date: 29-11-2025
+work done:
+This week I performed hyperparameter tuning for both the XGBoost and LSTM models to optimize performance and improve prediction accuracy.
+
+Work Completed:
+--Conducted RandomizedSearchCV on XGBoost with time-series split.
+--Trained 18 candidate models and selected best parameters.
+--Performed grid-search style hyperparameter tuning for LSTM (8 configurations).
+--Evaluated all models using RMSE, MAE, and R² metrics.
+--Saved best tuned models and all tuning logs.
+--enerated RMSE comparison plots for XGBoost and LSTM tuning.
+
+Best Model Results
+Model	                                            RMSE	            MAE	            R²
+Tuned XGBoost	                                  0.003322        	0.000448       	0.9981
+Best LSTM (32 units, 0.1 dropout, lr=0.001)    	0.081079	        0.042838	       -0.1183
+
+
 
 
 
