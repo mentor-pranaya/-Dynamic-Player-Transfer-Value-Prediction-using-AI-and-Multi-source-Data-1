@@ -1,0 +1,7 @@
+params,mean_test_score,std_test_score,rank_test_score,mean_rmse
+"{'subsample': 0.7, 'n_estimators': 300, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 0.6}",-0.0035000068119534354,0.004305166163150452,6,0.059160855402482435
+"{'subsample': 0.7, 'n_estimators': 300, 'max_depth': 3, 'learning_rate': 0.03, 'colsample_bytree': 0.6}",-0.0013235428606248982,0.0006929146506417978,5,0.03638052859188412
+"{'subsample': 1.0, 'n_estimators': 300, 'max_depth': 5, 'learning_rate': 0.1, 'colsample_bytree': 0.8}",-0.00046433253945436423,0.0005554189502291521,4,0.021548376724346646
+"{'subsample': 0.8, 'n_estimators': 300, 'max_depth': 5, 'learning_rate': 0.1, 'colsample_bytree': 1.0}",-5.621880583271687e-05,4.6381743141056195e-05,1,0.0074979201004489815
+"{'subsample': 0.8, 'n_estimators': 200, 'max_depth': 6, 'learning_rate': 0.1, 'colsample_bytree': 1.0}",-5.7093028404306614e-05,4.602529777260911e-05,2,0.007555992880112224
+"{'subsample': 0.8, 'n_estimators': 200, 'max_depth': 5, 'learning_rate': 0.03, 'colsample_bytree': 1.0}",-8.354458830655606e-05,6.59739115568135e-05,3,0.009140272879217341
