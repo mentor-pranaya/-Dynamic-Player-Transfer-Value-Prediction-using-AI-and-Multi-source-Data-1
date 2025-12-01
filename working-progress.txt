@@ -91,5 +91,29 @@ Univariate LSTM	               0.0612	            0.0515
 Multivariate LSTM	             0.0895	            0.0473
 Encoder–Decoder(Multi-step)  	 0.0949	            0.0520
 
+Date: 26-11-2025
+work done:
+This week I completed the development and evaluation of ensemble models by combining the predictions of LSTM with XGBoost.
+Tasks Completed
+--Loaded the final cleaned dataset and LSTM prediction file.
+--Trained Plain XGBoost model (baseline).
+--Trained Ensemble XGBoost model using both:
+    -Engineered features
+    -LSTM predicted values
+--Compared performance of:
+    -LSTM-only
+    -Plain XGBoost
+    -Ensemble (LSTM + XGBoost)
+--Evaluated using RMSE and MAE metrics.
+--Saved prediction results and RMSE comparison plot.
+Performance Summary:
+
+Model                        	RMSE          	MAE
+LSTM-only	                  0.0611        	0.0515
+XGBoost	                    0.0181	        0.0115
+Ensemble (LSTM + XGBoost)	  0.0034	        0.0015
+
+
+
 
 
