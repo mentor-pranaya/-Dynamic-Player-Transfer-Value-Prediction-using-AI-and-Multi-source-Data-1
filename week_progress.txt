@@ -32,3 +32,6 @@ Week 7: Model Evaluation and Tuning
 - Performed hyperparameter tuning for LSTM and ensemble models  
 - Finalized best-performing model based on validation results  
 
+Week 8:
+- Created Dresentation and Documentation Report about my Project
+
