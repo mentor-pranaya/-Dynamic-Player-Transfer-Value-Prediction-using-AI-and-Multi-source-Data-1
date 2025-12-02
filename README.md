@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 TransferIQ — Dynamic Player Transfer Value Prediction
 
 AI-powered system that predicts football player transfer values using performance statistics, injury data, sentiment analysis, and machine learning models (LSTM + XGBoost).
