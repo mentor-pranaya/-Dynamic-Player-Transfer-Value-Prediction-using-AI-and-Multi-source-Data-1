@@ -1,0 +1,37 @@
+Week 1: Data Collection and Initial Exploration
+- Collected player performance data from StatsBomb Open Data  
+- Scraped market value data from Transfermarkt  
+- Retrieved sentiment data using Twitter API  
+- Gathered historical injury data  
+- Performed initial data exploration and summary  
+
+Week 2: Data Cleaning and Preprocessing
+- Cleaned datasets (handled missing values, removed duplicates)  
+- Scaled numerical data and one-hot encoded categorical variables  
+- Engineered features: performance trends, injury risk, contract duration  
+- Initiated sentiment analysis using NLP tools (VADER/TextBlob)  
+
+Weeks 3–4: Advanced Feature Engineering and Sentiment Analysis
+- Refined performance trend and injury impact features  
+- Conducted full sentiment analysis on social media data  
+- Generated sentiment scores and popularity metrics  
+- Finalized feature set for modeling  
+
+Week 5: LSTM Model Development
+- Developed univariate LSTM model using performance data  
+- Built multivariate LSTM model with injury and sentiment features  
+- Implemented encoder-decoder LSTM for multi-step forecasting  
+
+Week 6: Ensemble Model Development
+- Built ensemble models using XGBoost and LightGBM  
+- Integrated LSTM outputs with ensemble models  
+- Validated model performance on holdout datasets  
+
+Week 7: Model Evaluation and Tuning
+- Evaluated models using RMSE, MAE, and R²  
+- Performed hyperparameter tuning for LSTM and ensemble models  
+- Finalized best-performing model based on validation results  
+
+Week 8:
+- Created Dresentation and Documentation Report about my Project
+
