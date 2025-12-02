@@ -1,0 +1,15 @@
+# xgboost_config.yaml
+
+model:
+  objective: "reg:squarederror"
+  n_estimators: 300
+  learning_rate: 0.05
+  max_depth: 6
+  subsample: 0.8
+  colsample_bytree: 0.8
+  random_state: 42
+
+paths:
+  train_data: "data/processed/train_xgb.csv"
+  test_data: "data/processed/test_xgb.csv"
+  model_output: "models/xgboost/xgb_model.json"

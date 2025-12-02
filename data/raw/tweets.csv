@@ -1,0 +1,41 @@
+player_keyword,tweet_date,tweet_text,vader_compound
+Lionel Messi,2024-01-01T10:00:00,Messi still the GOAT!,0.92
+Kylian Mbappe,2024-01-02T11:00:00,Mbappe is unstoppable again,0.81
+Erling Haaland,2024-01-03T12:00:00,Haaland with another hat-trick!,0.88
+Kevin De Bruyne,2024-01-04T13:00:00,KDB passing is magical,0.75
+Luka Modric,2024-01-05T14:00:00,Modric is aging but still classy,0.62
+Pedri,2024-01-06T15:00:00,Pedri is insanely talented,0.83
+Rodri,2024-01-07T16:00:00,Rodri dominates every midfield,0.79
+Jude Bellingham,2024-01-08T17:00:00,Bellingham is a future Ballon d'Or winner!,0.91
+Phil Foden,2024-01-09T18:00:00,Foden is on fire lately,0.84
+Bukayo Saka,2024-01-10T19:00:00,Saka is so consistent,0.77
+Khvicha Kvaratskhelia,2024-01-11T20:00:00,Kvicha is incredible on the ball,0.82
+Vini Jr,2024-01-12T21:00:00,Vini Jr pace is insane,0.76
+Robert Lewandowski,2024-01-13T22:00:00,Lewa still scoring at top level,0.70
+Harry Kane,2024-01-14T23:00:00,Kane with a beautiful finish,0.74
+Son Heung-min,2024-01-15T09:00:00,Son is underrated,0.65
+Marcus Rashford,2024-01-16T08:30:00,Rashford is inconsistent lately,-0.10
+Gavi,2024-01-17T07:45:00,Gavi plays with so much heart,0.72
+Declan Rice,2024-01-18T06:50:00,Rice massively improved Arsenal,0.80
+Antony,2024-01-19T05:30:00,Antony always cuts inside,0.20
+Lautaro Martinez,2024-01-20T17:25:00,Lautaro is world class,0.88
+Joao Felix,2024-01-21T16:40:00,Felix needs consistency,-0.05
+Bernardo Silva,2024-01-22T15:55:00,SIlva is such a smart player,0.78
+Ilkay Gundogan,2024-01-23T14:20:00,Gundogan brings experience,0.65
+Ferran Torres,2024-01-24T18:10:00,Ferran was poor today,-0.30
+Raphinha,2024-01-25T12:45:00,Raphinha has amazing workrate,0.60
+Darwin Nunez,2024-01-26T11:55:00,Nunez misses too many chances,-0.35
+Ousmane Dembele,2024-01-27T14:50:00,Dembele dribbling is top class,0.72
+Riyad Mahrez,2024-01-28T16:20:00,Mahrez still silky,0.69
+Mohamed Salah,2024-01-29T17:15:00,Salah is Liverpool legend,0.90
+Cody Gakpo,2024-01-30T18:30:00,Gakpo adapting well,0.50
+Enzo Fernandez,2024-01-31T19:45:00,Enzo controls midfield,0.74
+Alexis Mac Allister,2024-02-01T20:30:00,Mac Allister underrated signing,0.68
+Bruno Fernandes,2024-02-02T21:10:00,Bruno complains too much,-0.40
+Mason Mount,2024-02-03T22:00:00,Mount needs more confidence,0.10
+Jadon Sancho,2024-02-04T23:00:00,Sancho's situation is sad,-0.50
+Toni Kroos,2024-02-05T10:00:00,Kroos still world class,0.88
+Marco Reus,2024-02-06T11:00:00,Reus is Dortmund legend,0.84
+Neymar Jr,2024-02-07T12:00:00,Neymar injured again,-0.20
+Angel Di Maria,2024-02-08T13:00:00,Di Maria still magical,0.80
+Giovanni Reyna,2024-02-09T14:00:00,Reyna has potential,0.60

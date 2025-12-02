@@ -1,0 +1,22 @@
+# lstm_config.yaml
+
+model:
+  sequence_length: 30
+  lstm_units: 128
+  dropout: 0.2
+  dense_units: 64
+  output_units: 1
+  loss: "mse"
+  optimizer: "adam"
+
+training:
+  batch_size: 32
+  epochs: 50
+  validation_split: 0.2
+  shuffle: true
+
+paths:
+  train_data: "data/processed/train_lstm.csv"
+  test_data: "data/processed/test_lstm.csv"
+  scaler: "models/scalers/lstm_scaler.pkl"
+  model_output: "models/lstm/lstm_model.h5"

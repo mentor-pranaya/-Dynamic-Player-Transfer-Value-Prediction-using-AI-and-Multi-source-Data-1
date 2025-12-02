@@ -1,0 +1,16 @@
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+plotly
+xgboost
+tensorflow
+pyyaml
+nltk
+requests
+beautifulsoup4
+lxml
+tqdm
+joblib
+python-dotenv

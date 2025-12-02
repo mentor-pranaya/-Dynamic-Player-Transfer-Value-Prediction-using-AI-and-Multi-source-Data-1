@@ -1,0 +1,30 @@
+# paths.yaml
+
+data:
+  raw: "data/raw/"
+  processed: "data/processed/"
+  interim: "data/interim/"
+
+datasets:
+  statsbomb: "data/raw/statsbomb_events.json"
+  transfermarkt: "data/raw/transfermarkt_players.csv"
+  twitter: "data/raw/twitter_sentiment.csv"
+  injuries: "data/raw/injuries.csv"
+  final_dataset: "data/processed/final_dataset.csv"
+
+models:
+  lstm_model: "models/lstm/lstm_model.h5"
+  xgboost_model: "models/xgboost/xgb_model.json"
+  ensemble_model: "models/ensemble/ensemble.pkl"
+
+scalers:
+  lstm_scaler: "models/scalers/lstm_scaler.pkl"
+  xgb_scaler: "models/scalers/xgb_scaler.pkl"
+
+notebooks:
+  eda: "notebooks/01_eda.ipynb"
+  preprocessing: "notebooks/02_preprocessing.ipynb"
+  feature_engineering: "notebooks/03_feature_engineering.ipynb"
+  sentiment: "notebooks/04_sentiment_analysis.ipynb"
+  lstm: "notebooks/05_lstm_model.ipynb"
+  xgboost: "notebooks/06_xgboost_ensemble.ipynb"
