@@ -1,0 +1,17 @@
+python 3.10+​
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+plotly
+xgboost
+tensorflow (or tensorflow-cpu)
+pyyaml
+nltk
+requests
+beautifulsoup4
+lxml
+tqdm
+joblib
+python-dotenv
